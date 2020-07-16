@@ -29,7 +29,7 @@ G92 E0
 G1 F2400 E-4
 ;LAYER_COUNT:69
 ;LAYER:0
-M106 S255
+M107
 M204 S4000
 M205 X30 Y30
 G1 F600 Z0.275
@@ -524,6 +524,7 @@ G0 X94.335 Y113.6
 G0 X96.4 Y113.6
 ;TIME_ELAPSED:42.633271
 ;LAYER:1
+M106 S127.5
 M204 S2250
 M205 X8 Y8
 ;TYPE:WALL-INNER
@@ -933,6 +934,7 @@ G0 X96.4 Y115.665
 G0 X96.4 Y113.6
 ;TIME_ELAPSED:80.264257
 ;LAYER:2
+M106 S255
 M204 S1500
 M205 X8 Y8
 ;TYPE:WALL-INNER
@@ -12361,89 +12363,89 @@ M104 S0
 ;SETTING_3 ion = 0\\n\\n[values]\\nacceleration_infill = 3000\\nacceleration_pri
 ;SETTING_3 nt = 3000\\nacceleration_travel = 4000\\nacceleration_wall_0 = 800\\n
 ;SETTING_3 acceleration_wall_x = 1500\\ncoasting_enable = True\\ncool_fan_full_a
-;SETTING_3 t_height = 0.5\\ncool_fan_speed_0 = 100\\ninfill_enable_travel_optimi
-;SETTING_3 zation = True\\ninfill_line_distance = =0 if infill_sparse_density ==
-;SETTING_3  0 else (infill_line_width * 100) / infill_sparse_density * (2 if inf
-;SETTING_3 ill_pattern == 'grid' else (3 if infill_pattern == 'triangles' or inf
-;SETTING_3 ill_pattern == 'trihexagon' or infill_pattern == 'cubic' or infill_pa
-;SETTING_3 ttern == 'cubicsubdiv' else (2 if infill_pattern == 'tetrahedral' or 
-;SETTING_3 infill_pattern == 'quarter_cubic' else (1 if infill_pattern == 'cross
-;SETTING_3 ' or infill_pattern == 'cross_3d' else 1))))\\ninfill_overlap = 15\\n
-;SETTING_3 infill_pattern = triangles\\ninfill_sparse_density = 20\\ninitial_lay
-;SETTING_3 er_line_width_factor = 140.0\\njerk_print = 8\\njerk_travel = =jerk_p
-;SETTING_3 rint if magic_spiralize else 30\\nmaterial_print_temperature = 200\\n
-;SETTING_3 material_print_temperature_layer_0 = =material_print_temperature\\nme
-;SETTING_3 shfix_union_all = False\\nraft_airgap = 0.25\\nraft_margin = 5\\nretr
-;SETTING_3 act_at_layer_change = True\\nretraction_amount = 4\\nretraction_hop =
-;SETTING_3  0.075\\nretraction_hop_enabled = True\\nretraction_hop_only_when_col
-;SETTING_3 lides = True\\nretraction_speed = 40\\nskirt_brim_speed = 30\\nskirt_
-;SETTING_3 gap = 5\\nskirt_line_count = 3\\nspeed_layer_0 = 30.0\\nspeed_print =
-;SETTING_3  100\\nspeed_support = 30\\nspeed_topbottom = 18\\nspeed_travel = 200
-;SETTING_3 \\nspeed_wall_0 = 45\\nsupport_angle = 60\\nsupport_interface_enable 
-;SETTING_3 = True\\nsupport_pattern = grid\\nsupport_roof_enable = False\\nsuppo
-;SETTING_3 rt_use_towers = False\\ntop_bottom_thickness = 1.2\\nwall_line_count 
-;SETTING_3 = 4\\nwall_thickness = 1.2\\n\\n", "[general]\\nversion = 4\\nname = 
-;SETTING_3 Multi\\ndefinition = custom\\n\\n[metadata]\\nintent_category = defau
-;SETTING_3 lt\\ntype = quality_changes\\nquality_type = normal\\nsetting_version
-;SETTING_3  = 13\\nposition = 1\\n\\n[values]\\nacceleration_print = 1800\\nacce
-;SETTING_3 leration_travel = 3000\\ncool_fan_full_at_height = 0.5\\ncool_fan_spe
-;SETTING_3 ed_0 = 100\\ninfill_line_distance = 2.666\\ninfill_overlap = 15\\ninf
-;SETTING_3 ill_pattern = zigzag\\ninfill_sparse_density = 15\\ninitial_layer_lin
-;SETTING_3 e_width_factor = 140.0\\njerk_print = 8\\njerk_travel = 10\\nmaterial
-;SETTING_3 _print_temperature = 235\\nmaterial_print_temperature_layer_0 = 0\\nr
-;SETTING_3 etraction_amount = 4\\nretraction_hop = 0.075\\nretraction_hop_enable
-;SETTING_3 d = True\\nretraction_hop_only_when_collides = True\\nretraction_spee
-;SETTING_3 d = 40\\nspeed_layer_0 = 20.0\\nspeed_print = 45\\nspeed_topbottom = 
-;SETTING_3 18\\nspeed_travel = 100\\nspeed_wall_0 = 45\\ntop_bottom_thickness = 
-;SETTING_3 1.2\\nwall_thickness = 1.2\\n\\n", "[general]\\nversion = 4\\nname = 
-;SETTING_3 Multi\\ndefinition = custom\\n\\n[metadata]\\nintent_category = defau
-;SETTING_3 lt\\ntype = quality_changes\\nquality_type = normal\\nsetting_version
-;SETTING_3  = 13\\nposition = 2\\n\\n[values]\\nacceleration_print = 1800\\nacce
-;SETTING_3 leration_travel = 3000\\ncool_fan_full_at_height = 0.5\\ncool_fan_spe
-;SETTING_3 ed_0 = 100\\ninfill_line_distance = 2.666\\ninfill_overlap = 15\\ninf
-;SETTING_3 ill_pattern = zigzag\\ninfill_sparse_density = 15\\ninitial_layer_lin
-;SETTING_3 e_width_factor = 140.0\\njerk_print = 8\\njerk_travel = 10\\nmaterial
-;SETTING_3 _print_temperature = 235\\nmaterial_print_temperature_layer_0 = 0\\nr
-;SETTING_3 etraction_amount = 4\\nretraction_hop = 0.075\\nretraction_hop_enable
-;SETTING_3 d = True\\nretraction_hop_only_when_collides = True\\nretraction_spee
-;SETTING_3 d = 40\\nspeed_layer_0 = 20.0\\nspeed_print = 45\\nspeed_topbottom = 
-;SETTING_3 18\\nspeed_travel = 100\\nspeed_wall_0 = 45\\ntop_bottom_thickness = 
-;SETTING_3 1.2\\nwall_thickness = 1.2\\n\\n", "[general]\\nversion = 4\\nname = 
-;SETTING_3 Multi\\ndefinition = custom\\n\\n[metadata]\\nintent_category = defau
-;SETTING_3 lt\\ntype = quality_changes\\nquality_type = normal\\nsetting_version
-;SETTING_3  = 13\\nposition = 3\\n\\n[values]\\nacceleration_print = 1800\\nacce
-;SETTING_3 leration_travel = 3000\\ncool_fan_full_at_height = 0.5\\ncool_fan_spe
-;SETTING_3 ed_0 = 100\\ninfill_line_distance = 2.666\\ninfill_overlap = 15\\ninf
-;SETTING_3 ill_pattern = zigzag\\ninfill_sparse_density = 15\\ninitial_layer_lin
-;SETTING_3 e_width_factor = 140.0\\njerk_print = 8\\njerk_travel = 10\\nmaterial
-;SETTING_3 _print_temperature = 235\\nmaterial_print_temperature_layer_0 = 0\\nr
-;SETTING_3 etraction_amount = 4\\nretraction_hop = 0.075\\nretraction_hop_enable
-;SETTING_3 d = True\\nretraction_hop_only_when_collides = True\\nretraction_spee
-;SETTING_3 d = 40\\nspeed_layer_0 = 20.0\\nspeed_print = 45\\nspeed_topbottom = 
-;SETTING_3 18\\nspeed_travel = 100\\nspeed_wall_0 = 45\\ntop_bottom_thickness = 
-;SETTING_3 1.2\\nwall_thickness = 1.2\\n\\n", "[general]\\nversion = 4\\nname = 
-;SETTING_3 Multi\\ndefinition = custom\\n\\n[metadata]\\nintent_category = defau
-;SETTING_3 lt\\ntype = quality_changes\\nquality_type = normal\\nsetting_version
-;SETTING_3  = 13\\nposition = 4\\n\\n[values]\\ninitial_layer_line_width_factor 
-;SETTING_3 = 139.0\\n\\n", "[general]\\nversion = 4\\nname = Multi\\ndefinition 
-;SETTING_3 = custom\\n\\n[metadata]\\nintent_category = default\\ntype = quality
-;SETTING_3 _changes\\nquality_type = normal\\nsetting_version = 13\\nposition = 
-;SETTING_3 5\\n\\n[values]\\ninitial_layer_line_width_factor = 139.0\\n\\n", "[g
-;SETTING_3 eneral]\\nversion = 4\\nname = Multi\\ndefinition = custom\\n\\n[meta
-;SETTING_3 data]\\nintent_category = default\\ntype = quality_changes\\nquality_
-;SETTING_3 type = normal\\nsetting_version = 13\\nposition = 6\\n\\n[values]\\ni
-;SETTING_3 nitial_layer_line_width_factor = 139.0\\n\\n", "[general]\\nversion =
-;SETTING_3  4\\nname = Multi\\ndefinition = custom\\n\\n[metadata]\\nintent_cate
-;SETTING_3 gory = default\\ntype = quality_changes\\nquality_type = normal\\nset
-;SETTING_3 ting_version = 13\\nposition = 7\\n\\n[values]\\ninitial_layer_line_w
-;SETTING_3 idth_factor = 139.0\\n\\n"], "global_quality": "[general]\\nversion =
-;SETTING_3  4\\nname = Multi\\ndefinition = custom\\n\\n[metadata]\\nintent_cate
-;SETTING_3 gory = default\\ntype = quality_changes\\nquality_type = normal\\nset
-;SETTING_3 ting_version = 13\\n\\n[values]\\nacceleration_enabled = True\\nadapt
-;SETTING_3 ive_layer_height_enabled = True\\nadhesion_type = skirt\\nalternate_c
-;SETTING_3 arve_order = True\\ncarve_multiple_volumes = False\\njerk_enabled = T
-;SETTING_3 rue\\nlayer_height = 0.2\\nlayer_height_0 = 0.2\\nmaterial_bed_temper
-;SETTING_3 ature = 0\\nooze_shield_enabled = False\\nretraction_combing = infill
-;SETTING_3 \\nsmooth_spiralized_contours = True\\nsupport_enable = False\\nsuppo
-;SETTING_3 rt_tree_enable = True\\nsupport_type = everywhere\\ntravel_retract_be
-;SETTING_3 fore_outer_wall = True\\n\\n"}
+;SETTING_3 t_height = 0.5\\ncool_fan_speed_0 = 0\\ninfill_enable_travel_optimiza
+;SETTING_3 tion = True\\ninfill_line_distance = =0 if infill_sparse_density == 0
+;SETTING_3  else (infill_line_width * 100) / infill_sparse_density * (2 if infil
+;SETTING_3 l_pattern == 'grid' else (3 if infill_pattern == 'triangles' or infil
+;SETTING_3 l_pattern == 'trihexagon' or infill_pattern == 'cubic' or infill_patt
+;SETTING_3 ern == 'cubicsubdiv' else (2 if infill_pattern == 'tetrahedral' or in
+;SETTING_3 fill_pattern == 'quarter_cubic' else (1 if infill_pattern == 'cross' 
+;SETTING_3 or infill_pattern == 'cross_3d' else 1))))\\ninfill_overlap = 15\\nin
+;SETTING_3 fill_pattern = triangles\\ninfill_sparse_density = 20\\ninitial_layer
+;SETTING_3 _line_width_factor = 140.0\\njerk_print = 8\\njerk_travel = =jerk_pri
+;SETTING_3 nt if magic_spiralize else 30\\nmaterial_print_temperature = 200\\nma
+;SETTING_3 terial_print_temperature_layer_0 = =material_print_temperature\\nmesh
+;SETTING_3 fix_union_all = False\\nraft_airgap = 0.25\\nraft_margin = 5\\nretrac
+;SETTING_3 t_at_layer_change = True\\nretraction_amount = 4\\nretraction_hop = 0
+;SETTING_3 .075\\nretraction_hop_enabled = True\\nretraction_hop_only_when_colli
+;SETTING_3 des = True\\nretraction_speed = 40\\nskirt_brim_speed = 30\\nskirt_ga
+;SETTING_3 p = 5\\nskirt_line_count = 3\\nspeed_layer_0 = 30.0\\nspeed_print = 1
+;SETTING_3 00\\nspeed_support = 30\\nspeed_topbottom = 18\\nspeed_travel = 200\\
+;SETTING_3 nspeed_wall_0 = 45\\nsupport_angle = 60\\nsupport_interface_enable = 
+;SETTING_3 True\\nsupport_pattern = grid\\nsupport_roof_enable = False\\nsupport
+;SETTING_3 _use_towers = False\\ntop_bottom_thickness = 1.2\\nwall_line_count = 
+;SETTING_3 4\\nwall_thickness = 1.2\\n\\n", "[general]\\nversion = 4\\nname = Mu
+;SETTING_3 lti\\ndefinition = custom\\n\\n[metadata]\\nintent_category = default
+;SETTING_3 \\ntype = quality_changes\\nquality_type = normal\\nsetting_version =
+;SETTING_3  13\\nposition = 1\\n\\n[values]\\nacceleration_print = 1800\\naccele
+;SETTING_3 ration_travel = 3000\\ncool_fan_full_at_height = 0.5\\ncool_fan_speed
+;SETTING_3 _0 = 100\\ninfill_line_distance = 2.666\\ninfill_overlap = 15\\ninfil
+;SETTING_3 l_pattern = zigzag\\ninfill_sparse_density = 15\\ninitial_layer_line_
+;SETTING_3 width_factor = 140.0\\njerk_print = 8\\njerk_travel = 10\\nmaterial_p
+;SETTING_3 rint_temperature = 235\\nmaterial_print_temperature_layer_0 = 0\\nret
+;SETTING_3 raction_amount = 4\\nretraction_hop = 0.075\\nretraction_hop_enabled 
+;SETTING_3 = True\\nretraction_hop_only_when_collides = True\\nretraction_speed 
+;SETTING_3 = 40\\nspeed_layer_0 = 20.0\\nspeed_print = 45\\nspeed_topbottom = 18
+;SETTING_3 \\nspeed_travel = 100\\nspeed_wall_0 = 45\\ntop_bottom_thickness = 1.
+;SETTING_3 2\\nwall_thickness = 1.2\\n\\n", "[general]\\nversion = 4\\nname = Mu
+;SETTING_3 lti\\ndefinition = custom\\n\\n[metadata]\\nintent_category = default
+;SETTING_3 \\ntype = quality_changes\\nquality_type = normal\\nsetting_version =
+;SETTING_3  13\\nposition = 2\\n\\n[values]\\nacceleration_print = 1800\\naccele
+;SETTING_3 ration_travel = 3000\\ncool_fan_full_at_height = 0.5\\ncool_fan_speed
+;SETTING_3 _0 = 100\\ninfill_line_distance = 2.666\\ninfill_overlap = 15\\ninfil
+;SETTING_3 l_pattern = zigzag\\ninfill_sparse_density = 15\\ninitial_layer_line_
+;SETTING_3 width_factor = 140.0\\njerk_print = 8\\njerk_travel = 10\\nmaterial_p
+;SETTING_3 rint_temperature = 235\\nmaterial_print_temperature_layer_0 = 0\\nret
+;SETTING_3 raction_amount = 4\\nretraction_hop = 0.075\\nretraction_hop_enabled 
+;SETTING_3 = True\\nretraction_hop_only_when_collides = True\\nretraction_speed 
+;SETTING_3 = 40\\nspeed_layer_0 = 20.0\\nspeed_print = 45\\nspeed_topbottom = 18
+;SETTING_3 \\nspeed_travel = 100\\nspeed_wall_0 = 45\\ntop_bottom_thickness = 1.
+;SETTING_3 2\\nwall_thickness = 1.2\\n\\n", "[general]\\nversion = 4\\nname = Mu
+;SETTING_3 lti\\ndefinition = custom\\n\\n[metadata]\\nintent_category = default
+;SETTING_3 \\ntype = quality_changes\\nquality_type = normal\\nsetting_version =
+;SETTING_3  13\\nposition = 3\\n\\n[values]\\nacceleration_print = 1800\\naccele
+;SETTING_3 ration_travel = 3000\\ncool_fan_full_at_height = 0.5\\ncool_fan_speed
+;SETTING_3 _0 = 100\\ninfill_line_distance = 2.666\\ninfill_overlap = 15\\ninfil
+;SETTING_3 l_pattern = zigzag\\ninfill_sparse_density = 15\\ninitial_layer_line_
+;SETTING_3 width_factor = 140.0\\njerk_print = 8\\njerk_travel = 10\\nmaterial_p
+;SETTING_3 rint_temperature = 235\\nmaterial_print_temperature_layer_0 = 0\\nret
+;SETTING_3 raction_amount = 4\\nretraction_hop = 0.075\\nretraction_hop_enabled 
+;SETTING_3 = True\\nretraction_hop_only_when_collides = True\\nretraction_speed 
+;SETTING_3 = 40\\nspeed_layer_0 = 20.0\\nspeed_print = 45\\nspeed_topbottom = 18
+;SETTING_3 \\nspeed_travel = 100\\nspeed_wall_0 = 45\\ntop_bottom_thickness = 1.
+;SETTING_3 2\\nwall_thickness = 1.2\\n\\n", "[general]\\nversion = 4\\nname = Mu
+;SETTING_3 lti\\ndefinition = custom\\n\\n[metadata]\\nintent_category = default
+;SETTING_3 \\ntype = quality_changes\\nquality_type = normal\\nsetting_version =
+;SETTING_3  13\\nposition = 4\\n\\n[values]\\ninitial_layer_line_width_factor = 
+;SETTING_3 139.0\\n\\n", "[general]\\nversion = 4\\nname = Multi\\ndefinition = 
+;SETTING_3 custom\\n\\n[metadata]\\nintent_category = default\\ntype = quality_c
+;SETTING_3 hanges\\nquality_type = normal\\nsetting_version = 13\\nposition = 5\
+;SETTING_3 \n\\n[values]\\ninitial_layer_line_width_factor = 139.0\\n\\n", "[gen
+;SETTING_3 eral]\\nversion = 4\\nname = Multi\\ndefinition = custom\\n\\n[metada
+;SETTING_3 ta]\\nintent_category = default\\ntype = quality_changes\\nquality_ty
+;SETTING_3 pe = normal\\nsetting_version = 13\\nposition = 6\\n\\n[values]\\nini
+;SETTING_3 tial_layer_line_width_factor = 139.0\\n\\n", "[general]\\nversion = 4
+;SETTING_3 \\nname = Multi\\ndefinition = custom\\n\\n[metadata]\\nintent_catego
+;SETTING_3 ry = default\\ntype = quality_changes\\nquality_type = normal\\nsetti
+;SETTING_3 ng_version = 13\\nposition = 7\\n\\n[values]\\ninitial_layer_line_wid
+;SETTING_3 th_factor = 139.0\\n\\n"], "global_quality": "[general]\\nversion = 4
+;SETTING_3 \\nname = Multi\\ndefinition = custom\\n\\n[metadata]\\nintent_catego
+;SETTING_3 ry = default\\ntype = quality_changes\\nquality_type = normal\\nsetti
+;SETTING_3 ng_version = 13\\n\\n[values]\\nacceleration_enabled = True\\nadaptiv
+;SETTING_3 e_layer_height_enabled = True\\nadhesion_type = skirt\\nalternate_car
+;SETTING_3 ve_order = True\\ncarve_multiple_volumes = False\\njerk_enabled = Tru
+;SETTING_3 e\\nlayer_height = 0.2\\nlayer_height_0 = 0.2\\nmaterial_bed_temperat
+;SETTING_3 ure = 0\\nooze_shield_enabled = False\\nretraction_combing = infill\\
+;SETTING_3 nsmooth_spiralized_contours = True\\nsupport_enable = False\\nsupport
+;SETTING_3 _tree_enable = True\\nsupport_type = everywhere\\ntravel_retract_befo
+;SETTING_3 re_outer_wall = True\\n\\n"}
