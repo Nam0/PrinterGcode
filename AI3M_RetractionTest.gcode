@@ -16,10 +16,6 @@ M104 S200
 M105
 M109 S200
 M82 ;absolute extrusion mode
-G21 ;metric values
-G90 ;absolute positioning
-M82 ;set extruder to absolute mode
-M107 ;start with the fan off
 G28
 G29
 M501
