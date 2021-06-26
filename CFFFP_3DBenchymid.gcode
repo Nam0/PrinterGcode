@@ -130270,21 +130270,22 @@ M104 S0
 ;SETTING_3 {"global_quality": "[general]\\nversion = 4\\nname = CFFFP_Knife\\nde
 ;SETTING_3 finition = custom\\n\\n[metadata]\\nsetting_version = 16\\ntype = qua
 ;SETTING_3 lity_changes\\nquality_type = normal\\n\\n[values]\\nadhesion_type = 
-;SETTING_3 skirt\\nlayer_height = 0.2\\nretraction_combing = off\\n\\n", "extrud
-;SETTING_3 er_quality": ["[general]\\nversion = 4\\nname = CFFFP_Knife\\ndefinit
-;SETTING_3 ion = custom\\n\\n[metadata]\\nsetting_version = 16\\ntype = quality_
-;SETTING_3 changes\\nposition = 0\\nquality_type = normal\\n\\n[values]\\ncool_f
-;SETTING_3 an_speed = 50.0\\ninfill_pattern = cross_3d\\ninfill_sparse_density =
-;SETTING_3  25\\nmaterial_final_print_temperature = 215\\nmaterial_initial_print
-;SETTING_3 _temperature = 215\\nmaterial_print_temperature = 215\\nretraction_en
-;SETTING_3 able = True\\nspeed_layer_0 = 30\\nspeed_print = 30\\nspeed_travel = 
-;SETTING_3 90\\nspeed_wall = 30\\nspeed_wall_x = 30\\n\\n", "[general]\\nversion
-;SETTING_3  = 4\\nname = Fine #2\\ndefinition = fdmprinter\\n\\n[metadata]\\ntyp
-;SETTING_3 e = quality_changes\\nquality_type = normal\\nsetting_version = 16\\n
-;SETTING_3 position = 1\\n\\n[values]\\n\\n", "[general]\\nversion = 4\\nname = 
-;SETTING_3 Fine #2\\ndefinition = fdmprinter\\n\\n[metadata]\\ntype = quality_ch
-;SETTING_3 anges\\nquality_type = normal\\nsetting_version = 16\\nposition = 2\\
-;SETTING_3 n\\n[values]\\n\\n", "[general]\\nversion = 4\\nname = Fine #2\\ndefi
-;SETTING_3 nition = fdmprinter\\n\\n[metadata]\\ntype = quality_changes\\nqualit
-;SETTING_3 y_type = normal\\nsetting_version = 16\\nposition = 3\\n\\n[values]\\
-;SETTING_3 n\\n"]}
+;SETTING_3 skirt\\ninfill_extruder_nr = 0\\nlayer_height = 0.2\\nretraction_comb
+;SETTING_3 ing = off\\ntop_bottom_extruder_nr = 0\\nwall_extruder_nr = 0\\n\\n",
+;SETTING_3  "extruder_quality": ["[general]\\nversion = 4\\nname = CFFFP_Knife\\
+;SETTING_3 ndefinition = custom\\n\\n[metadata]\\nsetting_version = 16\\ntype = 
+;SETTING_3 quality_changes\\nposition = 0\\nquality_type = normal\\n\\n[values]\
+;SETTING_3 \ncool_fan_speed = 50.0\\ninfill_pattern = cross_3d\\ninfill_sparse_d
+;SETTING_3 ensity = 25\\nmaterial_final_print_temperature = 215\\nmaterial_initi
+;SETTING_3 al_print_temperature = 215\\nmaterial_print_temperature = 215\\nretra
+;SETTING_3 ction_enable = True\\nspeed_layer_0 = 30\\nspeed_print = 30\\nspeed_t
+;SETTING_3 ravel = 90\\nspeed_wall = 30\\nspeed_wall_x = 30\\n\\n", "[general]\\
+;SETTING_3 nversion = 4\\nname = Fine #2\\ndefinition = fdmprinter\\n\\n[metadat
+;SETTING_3 a]\\ntype = quality_changes\\nquality_type = normal\\nsetting_version
+;SETTING_3  = 16\\nposition = 1\\n\\n[values]\\n\\n", "[general]\\nversion = 4\\
+;SETTING_3 nname = Fine #2\\ndefinition = fdmprinter\\n\\n[metadata]\\ntype = qu
+;SETTING_3 ality_changes\\nquality_type = normal\\nsetting_version = 16\\npositi
+;SETTING_3 on = 2\\n\\n[values]\\n\\n", "[general]\\nversion = 4\\nname = Fine #
+;SETTING_3 2\\ndefinition = fdmprinter\\n\\n[metadata]\\ntype = quality_changes\
+;SETTING_3 \nquality_type = normal\\nsetting_version = 16\\nposition = 3\\n\\n[v
+;SETTING_3 alues]\\n\\n"]}
